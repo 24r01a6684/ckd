@@ -12,9 +12,9 @@ with open("GradientBoosting_model.pkl", "rb") as file:
 
 # Model accuracies (from training results)
 model_accuracies = {
-    "Random Forest": 0.98,  # Replace with actual accuracy
-    "AdaBoost": 0.96,  # Replace with actual accuracy
-    "Gradient Boosting": 0.95  # Replace with actual accuracy
+    "Random Forest": 0.78,  # Replace with actual accuracy
+    "AdaBoost": 0.75,  # Replace with actual accuracy
+    "Gradient Boosting": 0.77  # Replace with actual accuracy
 }
 
 st.title("Kidney Disease Prediction")
